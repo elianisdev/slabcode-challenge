@@ -68,7 +68,7 @@ const getDaysInMonth = (): ResponseGetDays[] => {
 
 <template>
 
-  <div class="flex-container py-3">
+  <div class="flex-container pt-3">
 
     <div class="label-day" v-for="(day, index) in weekDays" :key="index">
       <span> {{day}} </span>
@@ -125,12 +125,10 @@ const getDaysInMonth = (): ResponseGetDays[] => {
 
   .span-weekend-day {
     color: #0d2ae7;
-    font-weight: bold;
   }
 
   .span-week-day {
     color: #000000;
-    font-weight: bold;
   }
 
   .span-not-current-month {
